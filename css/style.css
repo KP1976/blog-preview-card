@@ -32,10 +32,16 @@
   --letter-spacing-0px: 0em;
 
   /* SPACING */
+  --space-24px: 1.5rem;
   --space-16px: 1rem;
   --space-12px: 0.75rem;
   --space-8px: 0.5rem;
   --space-4px: 0.25rem;
+
+  /* BORDERS */
+  --border-radius-20px: 1.25rem;
+  --border-radius-10px: 0.625rem;
+  --border-radius-4px: 0.25rem;
 }
 
 /* RESET */
@@ -179,7 +185,12 @@ body {
   font-family: var(--font-name), sans-serif;
   min-height: 100dvh;
   justify-content: center;
-  padding: var(
-    --space-16px
-  ); /* To prevent the card component from touching the screen edges on small screens. */
+  padding: var(--space-16px) var(--space-24px); /* To prevent the card component from touching the screen edges on small screens. */
+}
+
+.card {
+  background-color: var(--white);
+  border: 0.0625rem solid var(--gray-950);
+  border-radius: var(--border-radius-20px);
+  padding: var(--space-24px);
 }

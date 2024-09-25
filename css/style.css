@@ -206,3 +206,7 @@ body {
   height: 12.5rem;
   max-width: 100%;
 }
+
+.card-content {
+  padding: var(--space-24px) 0;
+}

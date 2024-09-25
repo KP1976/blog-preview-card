@@ -42,6 +42,9 @@
   --border-radius-20px: 1.25rem;
   --border-radius-10px: 0.625rem;
   --border-radius-4px: 0.25rem;
+
+  /* SHADOW */
+  --shadow: 0.5rem 0.5rem 0 0 hsla(0 0 0 / 100%);
 }
 
 /* RESET */
@@ -192,5 +195,14 @@ body {
   background-color: var(--white);
   border: 0.0625rem solid var(--gray-950);
   border-radius: var(--border-radius-20px);
+  box-shadow: var(--shadow);
   padding: var(--space-24px);
+}
+
+.card-image {
+  border-radius: var(--border-radius-10px);
+  display: block;
+  object-fit: cover;
+  height: 12.5rem;
+  max-width: 100%;
 }

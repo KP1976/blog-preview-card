@@ -30,6 +30,12 @@
 
   --line-height-150: 150%;
   --letter-spacing-0px: 0em;
+
+  /* SPACING */
+  --space-16px: 1rem;
+  --space-12px: 0.75rem;
+  --space-8px: 0.5rem;
+  --space-4px: 0.25rem;
 }
 
 /* RESET */

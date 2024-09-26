@@ -200,6 +200,7 @@ body {
   border: 0.0625rem solid var(--gray-950);
   border-radius: var(--border-radius-20px);
   box-shadow: var(--shadow);
+  max-width: 24rem;
   padding: var(--space-24px);
 }
 
@@ -261,4 +262,19 @@ body {
   color: var(--gray-950);
   font-size: var(--font-size-14px);
   font-weight: 800;
+}
+
+@media screen and (min-width: 26.875rem) {
+  .blog-category,
+  .blog-publish-date {
+    font-size: var(--font-size-14px);
+  }
+
+  .blog-title {
+    font-size: var(--font-size-24px);
+  }
+
+  .blog-description {
+    font-size: var(--font-size-16px);
+  }
 }

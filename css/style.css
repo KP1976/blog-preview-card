@@ -243,3 +243,22 @@ body {
   font-size: var(--font-size-14px);
   font-weight: 500;
 }
+
+.blog-author {
+  align-items: center;
+  display: flex;
+  gap: 0 var(--space-12px);
+}
+
+.author-image {
+  display: block;
+  height: 2rem;
+  max-width: 100%;
+  width: 2rem;
+}
+
+.author-name {
+  color: var(--gray-950);
+  font-size: var(--font-size-14px);
+  font-weight: 800;
+}
